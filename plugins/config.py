@@ -11,19 +11,19 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("6252471050:AAFlBX-EkOPRf7re1WHZnMlNyYjkOg6c8yo", "")
 
-    API_ID = int(os.environ.get("API_ID", 23560088))
+    API_ID = int(os.environ.get("5806640", 23560088))
 
-    API_HASH = os.environ.get("API_HASH", "999c01704d5c417749a98f4b8785fe88")
+    API_HASH = os.environ.get("127f130ad3745dbcd31aa39aa0eabcb8", "999c01704d5c417749a98f4b8785fe88")
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5410723702").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("1375408229", "6203460103").split())
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = os.environ.get("https://t.me/+iR0XZIijZbwzYzdl", "")
 
     MAX_FILE_SIZE = 4194304000
 
