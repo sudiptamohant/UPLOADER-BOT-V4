@@ -45,20 +45,20 @@ class Config(object):
 
     DEF_WATER_MARK_FILE = "Use this bot @UploadLinkToFileBot"
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("mongodb+srv://bossboltebro:<password>@cluster0.jrzdzmy.mongodb.net/?retryWrites=true&w=majority", "")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
+    SESSION_NAME = os.environ.get("utubeup628bot", "UploadLinkToFileBot")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001642382009))
+    LOG_CHANNEL = int(os.environ.get("-1001981767301", -1001642382009))
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5410723702"))
+    OWNER_ID = int(os.environ.get("1375408229", "5410723702"))
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
+    BOT_USERNAME = os.environ.get("utubeup628bot", "UploadLinkToFileBot")
 
-    PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
+    PRO_USERS = list(set(int(x) for x in os.environ.get("1375408229", "0").split()))
 
     PRO_USERS.append(OWNER_ID)
